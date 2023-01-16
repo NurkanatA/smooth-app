@@ -1,5 +1,45 @@
 # Changelog
 
+## [4.3.0](https://github.com/openfoodfacts/smooth-app/compare/v4.2.1...v4.3.0) (2023-01-16)
+
+
+### 👷 Refactoring
+
+* Simpler project structure ([#3555](https://github.com/openfoodfacts/smooth-app/issues/3555)) ([199e27e](https://github.com/openfoodfacts/smooth-app/commit/199e27e47ec3f31746f1ce5e6bfd60bf969c2836))
+
+
+### 🤖 Automation
+
+* Fix postsubmit & iOS release ([#3558](https://github.com/openfoodfacts/smooth-app/issues/3558)) ([380d808](https://github.com/openfoodfacts/smooth-app/commit/380d808b987ab46d3e0442538372321c364ac87b))
+
+
+### 🐛 Bug Fixes
+
+* 3447 fab appearing in start scanning page ([#3550](https://github.com/openfoodfacts/smooth-app/issues/3550)) ([3291201](https://github.com/openfoodfacts/smooth-app/commit/3291201b69ad475ecb62603c3488aaf61e6ae196))
+* 3494 pop dialog navigator properly ([#3528](https://github.com/openfoodfacts/smooth-app/issues/3528)) ([a5949dc](https://github.com/openfoodfacts/smooth-app/commit/a5949dcee44550e572340ad24d2c94128a50b9aa))
+* 3529 - fixed the too strong link between product data and edit pages ([#3561](https://github.com/openfoodfacts/smooth-app/issues/3561)) ([0af3c68](https://github.com/openfoodfacts/smooth-app/commit/0af3c6803eebb1c0440beaf80b8aecda75e32292))
+* 3533 - added a "stamp" to background tasks, to identify similar tasks ([#3548](https://github.com/openfoodfacts/smooth-app/issues/3548)) ([8835f86](https://github.com/openfoodfacts/smooth-app/commit/8835f864ecedb07db57fb4273e8709d7f5256ae3))
+* 3534 - upgraded off-dart for user-agent fix ([#3559](https://github.com/openfoodfacts/smooth-app/issues/3559)) ([e67c257](https://github.com/openfoodfacts/smooth-app/commit/e67c2574430a649e87099fcc887e935ab26ee617))
+* 3535 - crop tools are no longer on top of the image ([#3543](https://github.com/openfoodfacts/smooth-app/issues/3543)) ([f0ccf1d](https://github.com/openfoodfacts/smooth-app/commit/f0ccf1dec0e71c66e96de7d5778cd4d9be804199))
+* 3535 - padding added to crop tool ([#3551](https://github.com/openfoodfacts/smooth-app/issues/3551)) ([3d142f4](https://github.com/openfoodfacts/smooth-app/commit/3d142f4bbec43deba031440d8bcf20c08d0b0562))
+
+
+### 🚀 Features
+
+* 3526 - add OTHER picture from product gallery ([#3544](https://github.com/openfoodfacts/smooth-app/issues/3544)) ([46056bc](https://github.com/openfoodfacts/smooth-app/commit/46056bcc5153b5806b4638b55a5c8fc47b5b1bbd))
+* 3526 - added "add extra photo" button for both edit packaging pages ([#3560](https://github.com/openfoodfacts/smooth-app/issues/3560)) ([9f93cee](https://github.com/openfoodfacts/smooth-app/commit/9f93cee027acd256929dc0f230258709358f2523))
+* 3565 - badge on bottom bar about background tasks and access to list ([#3567](https://github.com/openfoodfacts/smooth-app/issues/3567)) ([e5e6eab](https://github.com/openfoodfacts/smooth-app/commit/e5e6eab0871592e44310d07522491f554caa11be))
+* added feedback form links ([#3487](https://github.com/openfoodfacts/smooth-app/issues/3487)) ([c607be9](https://github.com/openfoodfacts/smooth-app/commit/c607be95b0edbd17d16e36a1202343e43856dab1))
+* make "start scanning" a button ([21dfb29](https://github.com/openfoodfacts/smooth-app/commit/21dfb297ffd0ac85510ca6258a14e79647877004))
+
+
+### 🛠 Miscellaneous
+
+* **deps:** bump actions/setup-java from 3.6.0 to 3.9.0 ([#3441](https://github.com/openfoodfacts/smooth-app/issues/3441)) ([8bbc3fe](https://github.com/openfoodfacts/smooth-app/commit/8bbc3fe46e842043c08e678692f0e939bc85786a))
+* New Crowdin translations ([#3545](https://github.com/openfoodfacts/smooth-app/issues/3545)) ([c81d4ba](https://github.com/openfoodfacts/smooth-app/commit/c81d4baac1a9c48113cb8160401a7e17a400ec7d))
+* New Crowdin translations ([#3553](https://github.com/openfoodfacts/smooth-app/issues/3553)) ([8c2dbc0](https://github.com/openfoodfacts/smooth-app/commit/8c2dbc06b8629009017b0c1ff2dafbb4b148b033))
+* New Crowdin translations ([#3572](https://github.com/openfoodfacts/smooth-app/issues/3572)) ([66cdbf2](https://github.com/openfoodfacts/smooth-app/commit/66cdbf22e13cbc54d9bb1e4373392447e55d78c0))
+
 ## [4.2.1](https://github.com/openfoodfacts/smooth-app/compare/v4.2.0...v4.2.1) (2023-01-06)
 
 
